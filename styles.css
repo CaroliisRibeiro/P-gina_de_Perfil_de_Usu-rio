@@ -7,27 +7,25 @@
 }
 
 
-
 .navbar{
     font-family: "Parkinsans", sans-serif;
     font-style:normal;
-    background-color: rgb(63, 39, 39) !important; /* Alterar a cor de fundo */
-    font-size: 20px; /* Tamanho da fonte do texto */
+    background-color: rgb(63, 39, 39) !important; 
+    font-size: 20px; 
     color: rgb(69, 1, 69);
     padding: 0.5rem;
  
 }
 .navbar .navbar-brand {
 
-    color: rgb(249, 190, 249); /* Cor personalizada para o texto do título */
+    color: rgb(249, 190, 249); 
     
-    text-transform: uppercase; /* Transformar o texto em letras maiúsculas */
+    text-transform: uppercase; 
 }
-
 .navbar .navbar-brand:hover {
     background-color: rgb(41, 1, 41);
 
-    color: rgb(255, 255, 255); /* Cor ao passar o mouse */
+    color: rgb(255, 255, 255); 
 }
 
 
@@ -35,11 +33,11 @@
 
     font-family: "Parkinsans", sans-serif;
 
-    display: flex; /* Configura o layout como Flexbox */
-    align-items: center; /* Alinha a imagem e o texto verticalmente */
-    gap: 30px; /* Espaço entre a imagem e o texto */
+    display: flex; 
+    align-items: center; 
+    gap: 30px; 
     padding: 2rem;
-    background-color: rgb(171, 117, 171); /* Cor de fundo */
+    background-color: rgb(171, 117, 171); 
 }
 
 .jumbotron h1 {
@@ -48,26 +46,27 @@
 
     padding: 1rem;
     color: plum;
-    background-color: rgb(109, 70, 70); /* Fundo do título */
+    background-color: rgb(109, 70, 70); 
     border-radius: 0.5rem;
     text-align: center;
-    font-size: 100px; /* Tamanho da fonte do texto */
-    margin: 0; /* Remove margens extras */
-}
+    font-size: 100px; 
+    margin: 0; 
 
 .jumbotron p {
     font-family: "Parkinsans", sans-serif;
     font-weight: 500;
-    color: rgb(69, 1, 69); /* Cor do texto */
-    font-size: 1.2rem; /* Tamanho da fonte */
-    line-height: 1.5; /* Altura das linhas para melhor leitura */
-    margin: 0; /* Remove margens extras */
+    color: rgb(69, 1, 69);
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+    margin: 0;
 }
 
 .jumbotron img {
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
-    width: 300px; /* Tamanho da imagem */
+    margin-right: 20px; 
+    width: 300px; 
 }
+
+ 
 
  .container{
     font-family: "Parkinsans", sans-serif;
@@ -87,6 +86,8 @@
     }
     
  }
+
+ }
  .col-md-4 ul{
 
     font-family: "Parkinsans", sans-serif;
@@ -98,36 +99,46 @@
    
 
  }
+
+ .col-md-4 img{
+    margin-right: 20px; 
+    width: 200px; 
+    border-radius: 0.5rem;
+
+}
  
 .card-body h5{
 
-        font-size: 1.2rem; /* Tamanho da fonte */
+        font-size: 1.2rem; 
         font-family: "Parkinsans", sans-serif;
         color: rgb(69, 1, 69);
-        border-radius: 0.5rem; /* Bordas arredondadas para a imagem */
+        border-radius: 0.5rem; 
         padding: 1rem;
         background-color: rgba(186, 150, 150, 0.304)
 
 
     }
+    
+
 
 .card-text{
-        text-align: justify; /* Justifica o texto */
-        line-height: 1.5; /* Melhora o espaçamento entre linhas */
-        font-size: 1.2rem; /* Tamanho da fonte */
+        text-align: justify; 
+        line-height: 1.5; 
+        font-size: 1.2rem; 
         font-family: "Parkinsans", sans-serif;
         color: rgb(69, 1, 69);
-        border-radius: 0.5rem; /* Bordas arredondadas para a imagem */
+        border-radius: 0.5rem; 
         padding: 1rem;
         background-color: rgba(233, 194, 194, 0.304)
         }
 
 
+
 .footer{
-        font-size: 1.2rem; /* Tamanho da fonte */
+        font-size: 1.2rem; 
         font-family: "Parkinsans", sans-serif;
         color: rgb(69, 1, 69);
-        border-radius: 0.5rem; /* Bordas arredondadas para a imagem */
+        border-radius: 0.5rem; 
         padding: 1rem;
         background-color: rgba(244, 197, 234, 0.304)
 
